@@ -1,5 +1,7 @@
 def print_message(msg):
+
     print(msg + '!')
+    raise ValueError("Wrong Answer!")
 
 
 if __name__ == '__main__':
