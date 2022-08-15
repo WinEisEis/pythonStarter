@@ -1,0 +1,6 @@
+def print_message(msg):
+    print(msg + '!')
+
+
+if __name__ == '__main__':
+    print_message("Hello World")
